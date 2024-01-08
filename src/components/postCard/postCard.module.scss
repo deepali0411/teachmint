@@ -1,0 +1,24 @@
+@import "../../styles/mixin.scss";
+
+.PostCard {
+  .container {
+    margin: 1.6rem;
+    box-sizing: border-box;
+    padding: 1.6rem;
+    border: 0.1rem solid #c5f1fa;
+    height: 22rem;
+    border-radius: 0.4rem;
+    overflow-y: scroll;
+    background-color: #daf8ff;
+    .title {
+      text-align: center;
+      font-weight: 600;
+      font-size: 1.8rem;
+      margin-bottom: 1.6rem;
+    }
+    .content {
+      text-align: justify;
+      line-height: 2.2rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+.dashboard {
+  font-size: 1.6rem;
+  width: 108rem;
+  box-sizing: border-box;
+  padding: 1.6rem;
+}
+
+@media screen and (max-width: 768px){
+    .dashboard {
+    width: 100%;
+    padding: 1.6rem;
+    }
+}
+
+

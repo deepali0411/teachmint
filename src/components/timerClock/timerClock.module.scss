@@ -1,0 +1,42 @@
+@import "../../styles//mixin.scss";
+
+.container {
+  display: flex;
+
+  .timer {
+    border: 0.1rem solid rgb(23, 93, 105);
+    padding: 0.8rem;
+    border-radius: 0.4rem;
+    background-color: rgb(30, 95, 106);
+    color: $white;
+    margin-right: 1.6rem;
+  }
+  .button {
+    height: 3.6rem;
+    width: 12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .timerButton {
+      font-size: 1.6rem;
+      font-weight: 600;
+      cursor: pointer;
+      background-color: rgb(98, 241, 215);
+      border: 0.1rem solid rgb(98, 241, 215);
+      border-radius: 0.2rem;
+      height: 3.6rem;
+      width: 12rem;
+      &:active {
+        width: 11.4rem;
+        height: 3.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
